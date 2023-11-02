@@ -1,0 +1,156 @@
+/* Importar la fuente Montserrat desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Estilo para el encabezado */
+header {
+    background-color: #116BA3; /* Color pastel */
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    border-radius: 15px; /* Bordes redondos */
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px; /* Fuente más grande */
+}
+
+/* Estilo para el logo en el encabezado */
+header img {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 15px;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #f2d4b5; /* Color pastel */
+    color: #f2d4b5;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #c69d7e; /* Borde inferior */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f2d4b5; /* Color de texto */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #116BA3; /* Cambia de color al pasar el mouse */
+}
+
+/* Estilo para la sección de selección de Carrera */
+.genre-selection {
+    background-color: #116BA3;
+    padding: 20px;
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.genre-selection h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px; /* Fuente más grande */
+}
+
+/* Estilo para los botones de género */
+.genre-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.genre-button {
+    background-color: #ffffff; /* Color pastel */
+    color: #c26904;
+    border: none;
+    padding: 12px 24px; /* Mayor espacio de relleno */
+    font-size: 20px; /* Fuente más grande */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+.genre-button:hover {
+    background-color: #A2B2EE; /* Cambia de color al pasar el mouse */
+}
+
+/* Estilo para la sección de libros recomendados */
+.book-recommendations {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.book-card {
+    background-color: #ffffff; /* Color pastel */
+    border: 2px solid #7eb5c6; /* Borde */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.377);
+}
+
+.book-card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333; /* Color de texto */
+}
+
+.book-card p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555; /* Color de texto */
+}
+
+/* Estilo para el botón de enlace */
+.book-card a {
+    text-decoration: none;
+    color: #000000; /* Color de enlace */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.book-card a:hover {
+    color: #116BA3; /* Cambia de color al pasar el mouse */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #116BA3; /* Color pastel */
+    color: #080807; /* Color de texto */
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #c69d7e; /* Borde superior */
+    border-radius: 15px;
+}
